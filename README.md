@@ -29,3 +29,12 @@ get "/hello" do
   "go to hello world"
 end
 ```
+
+
+在網址 http://127.0.0.1:4567/about.php 會顯示`This is php`
+
+```ruby
+get "/about.php" do
+  'This is php'
+end
+```

@@ -7,3 +7,7 @@ end
 get "/hello" do
   "go to hello world"
 end
+
+get '/about.php' do
+  "This is php"
+end
