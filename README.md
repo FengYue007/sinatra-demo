@@ -32,6 +32,7 @@ end
 
 
 在網址 http://127.0.0.1:4567/about.php 會顯示`This is php`
+:不一定php檔案　但可以假裝自己是PHP網站！
 
 ```ruby
 get "/about.php" do
