@@ -10,5 +10,6 @@ get '/cats' do
 end
 
 get '/cats/:id' do
+  # 查資料庫....
   "你好，你是第 #{params[:id]} 號的貓!"
 end
